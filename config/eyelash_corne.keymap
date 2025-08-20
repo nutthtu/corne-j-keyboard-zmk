@@ -22,8 +22,8 @@
 };
 
 &mmv {
-    time-to-max-speed-ms = <3000>;
-    acceleration-exponent = <2>;
+    time-to-max-speed-ms = <1500>;
+    acceleration-exponent = <1>;
     trigger-period-ms = <16>;
 };
 
