@@ -184,9 +184,9 @@
         layer_4 {
             display-name = "NAV";
             bindings = <
-&trans   &kp F1      &kp F2      &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &none      &none   &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP         &trans
-&trans  &trans      &mkp LCLK   &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none      &none   &none       &none              &none  &trans
-&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &none      &none   &none       &none              &none   &trans
+&trans   &kp HOME   &kp UP     &kp END    &kp PG_UP  &kp PRINTSCREEN                                  &mmv MOVE_UP                     &none      &none   &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP         &trans
+&trans  &kp LEFT   &kp DOWN   &kp RIGHT  &kp PG_DN  &kp DELETE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none      &none   &none       &none              &none  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp CAPS  &kp C_MUTE                    &mmv MOVE_DOWN                   &none      &none   &none       &none              &none   &trans
                                 &none      &mo 5      &kp SPACE                                                                   &kp ENTER  &trans     &none
             >;
             sensor-bindings = <&scroll_encoder>;
