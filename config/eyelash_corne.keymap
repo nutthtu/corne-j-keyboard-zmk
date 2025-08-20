@@ -146,7 +146,7 @@
 &trans  &kp LSHFT     &kp LCTRL        &kp LEFT_GUI  &kp LEFT_ALT  &none &kp C_MUTE                    &mmv MOVE_DOWN                   &none      &none             &kp COMMA          &kp DOT    &kp RSHFT   &trans
                                          &none        &trans        &kp SPACE                                                                         &kp ENTER  &kp BSPC          &none
             >;
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_2 {
@@ -157,7 +157,7 @@
 &trans  &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)   &none  &trans                    &mmv MOVE_DOWN                   &none       &none       &none       &none       &kp RSHFT  &trans
                                     &none     &kp TAB     &trans                                                             &kp ENTER   &kp BSPC     &none
             >;
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_3 {
@@ -168,7 +168,7 @@
 &trans  &kp LSHFT  &kp LCTRL  &kp LGUI  &kp LALT  &none   &kp C_MUTE                    &mmv MOVE_DOWN                   &none       &kp RALT  &kp RGUI  &kp RCTRL  &kp RSHFT   &trans
                                 &none      &kp TAB   &kp SPACE                                                                   &trans  &kp BSPC     &none
             >;
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
         layer_4 {
             display-name = "NAV";
@@ -178,7 +178,7 @@
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp CAPS   &kp C_MUTE                    &mmv MOVE_DOWN                   &none      &none   &none       &none              &none   &trans
                                 &none      &mo 5      &kp SPACE                                                                   &kp ENTER  &trans     &none
             >;
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
         layer_5 {
             display-name = "MOUSE";
@@ -188,7 +188,7 @@
 &trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)        &kp LC(V)  &none   &kp C_MUTE                    &mmv MOVE_DOWN                   &none      &none   &none     &none     &none  &trans
                                 &none      &trans      &kp SPACE                                                                  &kp ENTER  &trans     &none
             >;
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
 };
